@@ -250,6 +250,124 @@
     </div>
   </footer>
   <!-- End Footer Section -->
+  <!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Order Form</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fc;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .notice {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: #333;
+    }
+
+    form {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    form h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 500;
+      color: #444;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 15px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+      transition: border-color 0.3s;
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border-color: #4a90e2;
+    }
+
+    button {
+      background-color: #4a90e2;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #357abd;
+    }
+
+    @media (max-width: 500px) {
+      form {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="notice">
+    📞 অর্ডার দিতে সমস্যা হলে ইনবক্স করুন বা কল করুন: <strong>01873275283</strong>
+  </div>
+
+  <form action="https://formsubmit.co/rafychhowdhury14@gmail.com" method="POST">
+    <h2>অর্ডার ফর্ম</h2>
+
+    <label>নাম:</label>
+    <input type="text" name="নাম" required>
+
+    <label>মোবাইল নাম্বার:</label>
+    <input type="tel" name="মোবাইল নাম্বার" required>
+
+    <label>ঠিকানা:</label>
+    <textarea name="ঠিকানা (জেলা, উপজেলা, ইউনিয়ন, গ্রাম)" rows="3" required></textarea>
+
+    <label>অর্ডার করা প্রোডাক্ট:</label>
+    <input type="text" name="অর্ডার করা প্রোডাক্ট" required>
+
+    <label>কত পিস / কালার / সাইজ:</label>
+    <input type="text" name="পিস-কালার-সাইজ" required>
+
+    <button type="submit">অর্ডার কনফার্ম</button>
+  </form>
+
+</body>
+</html>
 
 </body>
 
